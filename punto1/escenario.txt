@@ -1,0 +1,16 @@
+La clínica médica HealthCare Pro administra un sistema de monitoreo de pacientes de cuidado crítico en tiempo real. 
+La unidad central del hospital registra en ese sistema eventos continuos procedentes de los dispositivos biomédicos:
+
+Caídas severas en el nivel de saturación de oxígeno o presión arterial.
+Cambios en la prioridad de atención de un paciente (código azul, código rojo).
+Solicitud de exámenes de laboratorio que requieren atención inmediata.
+
+Diversos profesionales dependen de esta información actualizada:
+
+Elena Ramos (médica intensivista): necesita recibir alertas inmediatas sobre signos vitales críticos para intervenir quirúrgicamente o ajustar medicamentos.
+Andrés Suárez (jefe de enfermería): Requiere recibir los cambios en la prioridad de atención de un paciente para coordinar los turnos y camas del piso.
+Marta Gómez (jefe de bacterióloga): Debe determinar los pacientes que requieren exámenes urgentes de laboratorio y coordinar la toma de muestras con los auxiliares de enfermería.
+
+Actualmente, estos avisos se coordinan por llamadas telefónicas, generando demoras peligrosas y pérdida de trazabilidad.
+Diseñe e implemente una aplicación en Java utilizando el patrón de diseño Observer, donde los profesionales puedan 
+suscribirse/desuscribirse dinámicamente a la central de monitoreo y recibir las notificaciones correspondientes automáticamente.
