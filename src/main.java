@@ -1,0 +1,5 @@
+public class main{
+  for i=1 in 10{
+  }
+
+}
